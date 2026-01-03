@@ -1,5 +1,6 @@
 from ingestion.reader import CSVReader
 from ingestion.mapper import DefectMapper
+from ml import dataset
 from utils.exceptions import MappingError
 
 from validation.validators import (
@@ -13,6 +14,12 @@ from validation.engine import ValidationEngine
 from analytics.aggregations import DefectAnalytics
 from storage.writer import JSONWriter
 
+from ml.features import FeatureBuilder
+from ml.dataset import DatasetBuilder
+from ml.model_factory import ModelFactory
+from ml.trainer import Trainer
+from ml.predictor import Predictor
+from ml.metrics import Metrics
 
 def main():
     reader = CSVReader("data/defects_data.csv")
@@ -59,6 +66,32 @@ def main():
 
     writer.write(summary, "data/summary.json")
     writer.write(rejected_defects, "data/rejected.json")
+
+    # ML Pipeline
+
+    feature_builder = FeatureBuilder()
+    X, y = feature_builder.build(valid_defects)
+
+    dataset = DatasetBuilder()
+    X_train, X_test, y_train, y_test = dataset.split(X, y)
+
+    model = ModelFactory.get("rf")
+
+    trainer = Trainer()
+    trained_model = trainer.train(model, X_train, y_train)
+
+    predictor = Predictor()
+    predictions = predictor.predict(trained_model, X_test)
+
+    metrics = Metrics()
+    accuracy = metrics.accuracy(y_test, predictions)
+
+    print(f"Model Accuracy: {accuracy:.2f}")
+
+
+
+
+   
     
 
 if __name__ == "__main__":
