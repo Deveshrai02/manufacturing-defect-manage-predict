@@ -1,0 +1,45 @@
+[
+    {
+        "defect_id": "864",
+        "reasons": [
+            "DateValidator"
+        ]
+    },
+    {
+        "defect_id": "917",
+        "reasons": [
+            "DateValidator"
+        ]
+    },
+    {
+        "defect_id": "964",
+        "reasons": [
+            "PositionValidator"
+        ]
+    },
+    {
+        "defect_id": "968",
+        "reasons": [
+            "SeverityValidator"
+        ]
+    },
+    {
+        "defect_id": "979",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "1001",
+        "reasons": [
+            "PositionValidator"
+        ]
+    },
+    {
+        "defect_id": "1002",
+        "reasons": [
+            "PositionValidator",
+            "DateValidator"
+        ]
+    }
+]
