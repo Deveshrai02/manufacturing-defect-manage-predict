@@ -1,5 +1,6 @@
 # Manufacturing Defect Management & Prediction
 Manage &amp; Predict the manufacturing defects
+
 Lightweight pipeline to ingest a defects CSV, validate rows, compute simple analytics, and write two JSON outputs:
 
 - `data/summary.json` — aggregates and metrics for valid defects
