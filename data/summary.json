@@ -1,14 +1,14 @@
 {
     "defects_by_type": {
-        "Structural": 351,
-        "Functional": 337,
-        "Cosmetic": 307
+        "Structural": 334,
+        "Functional": 318,
+        "Cosmetic": 290
     },
     "cost_by_position": {
-        "Component": 171548.56999999998,
-        "Internal": 160750.74999999994,
-        "Surface": 172002.26000000015
+        "Component": 153051.02999999997,
+        "Internal": 147072.37999999995,
+        "Surface": 152520.79000000012
     },
-    "total_valid_defects": 995,
-    "total_rejected_defects": 7
+    "total_valid_defects": 942,
+    "total_rejected_defects": 60
 }

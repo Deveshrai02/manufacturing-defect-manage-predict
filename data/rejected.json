@@ -1,14 +1,321 @@
 [
     {
+        "defect_id": "26",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "33",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "35",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "56",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "78",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "79",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "80",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "102",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "109",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "113",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "140",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "164",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "167",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "175",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "176",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "183",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "223",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "224",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "251",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "331",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "337",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "338",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "358",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "372",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "375",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "411",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "417",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "497",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "521",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "528",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "542",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "572",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "638",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "641",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "706",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "718",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "727",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "734",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "748",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "760",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "774",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "806",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "809",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "821",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "822",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "857",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
         "defect_id": "864",
         "reasons": [
+            "CostValidator",
             "DateValidator"
+        ]
+    },
+    {
+        "defect_id": "871",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "897",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "907",
+        "reasons": [
+            "CostValidator"
         ]
     },
     {
         "defect_id": "917",
         "reasons": [
             "DateValidator"
+        ]
+    },
+    {
+        "defect_id": "945",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "956",
+        "reasons": [
+            "CostValidator"
         ]
     },
     {
@@ -25,6 +332,18 @@
     },
     {
         "defect_id": "979",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "994",
+        "reasons": [
+            "CostValidator"
+        ]
+    },
+    {
+        "defect_id": "1000",
         "reasons": [
             "CostValidator"
         ]

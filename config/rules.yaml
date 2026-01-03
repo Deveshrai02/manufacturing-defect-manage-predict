@@ -1,0 +1,45 @@
+columns:
+  defect_id: int
+  product_id: int
+  defect_type: string
+  defect_location: string
+  repair_cost: float
+  severity: string
+  inspection_method: string
+  defect_date: date
+
+
+validations:
+  defect_type:
+    allowed_values:
+      - Functional
+      - Cosmetic
+      - Structural
+
+  defect_location:
+    allowed_values:
+      - Component
+      - Internal
+      - Surface
+
+  severity:
+    allowed_values:
+      - Minor
+      - Moderate
+      - Critical
+
+  inspection_method:
+    allowed_values:
+      - Visual Inspection
+      - Automated Testing
+      - Manual Testing
+
+  repair_cost:
+    min: 0.0 
+    max: 950.0
+  defect_date:
+    date_formats:
+      - "%m/%d/%Y"
+      - "%Y-%m-%d"
+      - "%m-%d-%Y"
+      - "%d/%m/%Y"
